@@ -3,10 +3,7 @@ html, body {
     font-family: Arial, sans-serif;
     margin: 0;
     height: 100%;
-    display: flex;
-    flex-direction: column;
 }
-
 
 .container {
     min-height: 100%;
@@ -41,13 +38,13 @@ header {
 }
 
 footer {
+    margin-top: auto;
     width: 100%;
     background-color: #3498db;
     color: #fff;
     padding: 20px 0;
-    margin-top: auto;
-    height: 100px;
 }
+
   
 h1 {
     text-align: center;
@@ -86,44 +83,45 @@ h1 {
 }
 
 .ContactForm {
-    width: 100%;
     max-width: 600px;
-    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .ContactForm form {
     background-color: #f5f5f5;
+    padding: 20px;
     border-radius: 5px;
-    text-align: center;
-}
-
-.ContactForm label {
+  }
+  
+  .ContactForm label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-}
-
-.ContactForm input[type="text"],
-.ContactForm input[type="email"],
-.ContactForm textarea {
+  }
+  
+  .ContactForm input[type="text"],
+  .ContactForm input[type="email"],
+  .ContactForm textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
-}
-
-.ContactForm button[type="submit"] {
-    width: 100%;
+  }
+  
+  .ContactForm button[type="submit"] {
     background-color: #3498db;
     color: #fff;
     padding: 10px 15px;
     border: none;
     border-radius: 3px;
     cursor: pointer;
-}
-
-.ContactForm button[type="submit"]:hover {
+  }
+  
+  .ContactForm button[type="submit"]:hover {
     background-color: #1a7fc2;
-}
-
-.ContactForm button[type="submit"]:focus {
+  }
+  
+  .ContactForm button[type="submit"]:focus {
     outline: none;
-}
+  }
