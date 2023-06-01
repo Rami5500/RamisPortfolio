@@ -5,7 +5,7 @@ body {
     height: 100%
 }
 
-.container {
+.foot {
     min-height: calc(100% - 80px); /* Subtract the height of the footer */
 }
 
@@ -40,9 +40,6 @@ footer {
     padding: 20px 0;
 }
 
-footer p {
-    margin: 0;
-}
   
 h1 {
     text-align: center;
