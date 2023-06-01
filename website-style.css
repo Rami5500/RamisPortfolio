@@ -44,7 +44,7 @@ footer p {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 40px; /* Adjust this value to match the desired height of the footer */
+    height: 20px; /* Adjust this value to match the desired height of the footer */
     background-color: #3498db;
     color: #fff;
     padding: 20px 0;
