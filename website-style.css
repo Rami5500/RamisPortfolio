@@ -11,6 +11,9 @@ html, body {
     flex-direction: column;
 }
 
+.main-content {
+    flex: 1;
+}
 
 header {
     background-color: #3498db;
