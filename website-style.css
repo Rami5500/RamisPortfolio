@@ -31,6 +31,11 @@ header {
     color: black !important;
 }
 
+.nav-bar button{
+    color: black;
+    background-color: black;
+}
+
 .navbar-brand {
     font-weight: bold;
     color: black !important;
