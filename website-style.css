@@ -3,7 +3,6 @@ html, body {
     font-family: Arial, sans-serif;
     margin: 0;
     height: 100%;
-    color:black;
 }
 
 .container {
@@ -21,7 +20,7 @@ html, body {
 }
 
 header {
-    background-color: white;
+    background-color: #3498db;
 }
 
 .navbar {
@@ -35,7 +34,7 @@ header {
 .nav-link {
     font-size: 16px;
     font-weight: bold;
-    /*color: black;*/
+    color: black;
 }
 
 .row {
@@ -45,8 +44,8 @@ header {
 footer {
     margin-top: auto;
     width: 100%;
-    background-color: white;
-    /*color: black;*/
+    background-color: #3498db;
+    color: #fff;
     padding: 20px 0;
 }
 
