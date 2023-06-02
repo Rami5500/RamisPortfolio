@@ -86,18 +86,21 @@ h1 {
     text-align: left;
 }
 
-.Preview button{
-    display: inline-block;
-    padding: 10px 20px;
+.Preview button {
     background-color: #3498db;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
-
-.Preview button:hover{
+  
+.Preview button:hover {
     background-color: #1a7fc2;
+}
+  
+.Preview button:focus {
+    outline: none;
 }
 
 .ContactForm {
