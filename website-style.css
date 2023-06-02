@@ -29,6 +29,7 @@ header {
 
 .navbar-brand {
     font-weight: bold;
+    color: black;
 }
 
 .nav-link {
