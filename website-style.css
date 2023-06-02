@@ -182,7 +182,7 @@ h2 {
     outline: none;
   }
 
-  #cookie-banner {
+  .cookie-consent {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -190,31 +190,17 @@ h2 {
     background-color: #f8f9fa;
     padding: 10px;
     text-align: center;
-    z-index: 9999;
-  }
-  
-  #cookie-banner p {
-    margin: 0;
-  }
-  
-  #accept-cookies {
-    background-color: #3498db;
-    color: #fff;
+}
+
+.cookie-consent .message {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cookie-consent .button {
+    display: inline-block;
     padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  #accept-cookies:hover {
-    background-color: #217dbb;
-  }
-  
-  #cookie-banner a {
-    color: #3498db;
+    background-color: #3498db;
+    color: #ffffff;
     text-decoration: none;
-    margin-left: 10px;
-  }
-  
-  #cookie-banner a:hover {
-    text-decoration: underline;
-  }
+}

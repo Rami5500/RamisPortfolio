@@ -1,18 +1,42 @@
-// Check if user has already given consent
-if (localStorage.getItem('cookieConsent') === 'true') {
-    hideCookieBanner();
-  }
-  
-  // Function to hide the cookie consent banner
-  function hideCookieBanner() {
-    document.getElementById('cookie-banner').style.display = 'none';
-  }
-  
-  // Function to handle cookie consent
-  function handleCookieConsent() {
-    localStorage.setItem('cookieConsent', 'true');
-    hideCookieBanner();
-  }
-  
-  // Event listener for accepting cookies
-  document.getElementById('accept-cookies').addEventListener('click', handleCookieConsent);
+function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/";
+}
+
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) === ' ') {
+            c = c.substring(1, c.length);
+        }
+        if (c.indexOf(nameEQ) === 0) {
+            return c.substring(nameEQ.length, c.length);
+        }
+    }
+    return null;
+}
+
+function acceptCookies() {
+    setCookie("cookieConsent", "true", 365);
+    var cookieConsentElement = document.getElementById("cookieConsent");
+    if (cookieConsentElement) {
+        cookieConsentElement.style.display = "none";
+    }
+}
+
+window.onload = function () {
+    var cookieConsent = getCookie("cookieConsent");
+    if (cookieConsent) {
+        var cookieConsentElement = document.getElementById("cookieConsent");
+        if (cookieConsentElement) {
+            cookieConsentElement.style.display = "none";
+        }
+    }
+};
