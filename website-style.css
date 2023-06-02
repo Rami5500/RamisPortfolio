@@ -23,6 +23,11 @@ a{
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
     background-color: white;
 }
 
@@ -96,7 +101,18 @@ h2 {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-  }
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    height: 1px;
+    width: 100px;
+    background-color: #333333;
+    transform: translateY(-50%);
+}
 
 .projects_intro {
     font-family: Arial, sans-serif;
