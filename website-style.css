@@ -89,7 +89,7 @@ h1 {
     margin: 0 auto;
     border-radius: 10px;
     background-color: #f8f9fa;
-    border: none;
+    border-color: #3498db;
     height: 100%;
     transition: background-color 0.3s;
   }
