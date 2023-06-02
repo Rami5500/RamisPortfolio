@@ -12,7 +12,7 @@ html, body {
 }
 
 a{
-    color: black;
+    color: black !important;
 }
 .contactimage{
     text-align: center;
@@ -32,7 +32,7 @@ header {
 
 .navbar-brand {
     font-weight: bold;
-    color: black;
+    color: black !important;
 }
 
 .nav-link {
