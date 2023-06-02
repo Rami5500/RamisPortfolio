@@ -66,9 +66,16 @@ footer {
 
   
 h1 {
+    font-size: 36px; 
+    font-weight: bold;
+    color: black; 
     text-align: center;
-    color: black;
-}
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    text-transform: uppercase; /* Convert the text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing for emphasis */
+    border-bottom: 2px solid #3498db; /* Add a bottom border */
+    padding-bottom: 5px; /* Adjust the padding as desired */
+  }
   
 .section {
     margin-bottom: 30px;
