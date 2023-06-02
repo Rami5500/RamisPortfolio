@@ -75,39 +75,34 @@ h1 {
 }
   
 .box {
-
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
     width: 100%;
     margin: 0 auto;
     border-radius: 10px;
-
     background-color: #f8f9fa;
-    border: 1px solid #3498db;
-
+    border: none;
     height: 100%;
-}
+    transition: background-color 0.3s;
+  }
+  
+  .box:hover {
+    background-color: #e9ecef;
+  }
   
 .subsection {
     margin-bottom: 10px;
 }
 
 h2 {
-    position: relative;
-    display: inline-block;
-    padding-right: 20px;
-  }
-
-h2::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  width: 100px;
-  height: 2px;
-  background-color: black; 
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .projects_intro {
