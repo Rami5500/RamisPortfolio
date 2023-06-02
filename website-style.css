@@ -104,14 +104,14 @@ h2 {
 }
 
 h2::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: -20px;
-    height: 1px;
-    width: 100px;
-    background-color: #333333;
-    transform: translateY(-50%);
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 2px;
+  background-color: black; 
 }
 
 .projects_intro {
