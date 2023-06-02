@@ -11,6 +11,9 @@ html, body {
     flex-direction: column;
 }
 
+a{
+    color: black;
+}
 .contactimage{
     text-align: center;
 }
