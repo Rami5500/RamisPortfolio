@@ -6,7 +6,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Projects - Rami's Portfolio</title>
-    
+
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Custom Google font-->
@@ -42,28 +42,30 @@
                 <h1 class="display-5 fw-bolder"><span class="text-gradient d-inline">Projects</span></h1>
             </div>
             <div class="row gx-5 justify-content-center">
-                <div class="col-lg-11 col-xl-9 col-xxl-8">
-                    <!-- Project Card 1 (Replace this with your project) -->
-                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 text-center">
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <!-- Project Card 2 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 text-center h-100">
                         <div class="card-body p-0">
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="p-5">
-                                    <h2 class="fw-bolder">First Game using Unity - Cube Collision</h2>
-                                    <p>This is the first game I created using Unity. I followed steps to create levels within the game to create a progression system. The coding for this game has been done using C# on VSCode.</p>
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="p-3 p-md-5 text-wrap">
+                                    <h2 class="fw-bolder h2-responsive">Cube Collision Game using Unity</h2>
+                                    <p class="text-responsive">This is the first game I created using Unity. I followed steps to create levels within the game to create a progression system. The coding for this game has been done using C# on VSCode.</p>
                                     <img class="img-fluid" src="https://raw.githubusercontent.com/Rami5500/RamisPortfolio/main/CubeCollisionP1.png" alt="Project Image" />
-                                    <p>The code for this can be seen in my GitHub: <a href="https://github.com/Rami5500/CubeCollisionGame">https://github.com/Rami5500/CubeCollisionGame</a></p>
+                                    <br>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Project Card 2 (Replace this with your project) -->
-                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 text-center">
+                </div>
+                
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <!-- Project Card 2 -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 text-center h-100">
                         <div class="card-body p-0">
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="p-5">
-                                    <h2 class="fw-bolder">Air Hockey Game using Unity</h2>
-                                    <p>This is a game that has been created using 2D Unity with code that has been written in C#. It contains features like Artificial Intelligence, a scoreboard, competition, UI system, and game physics.</p>
+                            <div class="d-flex align-items-center justify-content-center h-100">
+                                <div class="p-3 p-md-5 text-wrap">
+                                    <h2 class="fw-bolder h2-responsive">Air Hockey Game using Unity</h2>
+                                    <p class="text-responsive">This is a game that has been created using 2D Unity with code that has been written in C#. It contains features like Artificial Intelligence, a scoreboard, competition, UI system, and game physics.</p>
                                     <img class="img-fluid" src="https://raw.githubusercontent.com/Rami5500/RamisPortfolio/main/AirHockeyGameP2.png" alt="Project Image" />
                                     <br>
                                     <div class="subsection"><strong>It contains the following:</strong></div>
@@ -76,7 +78,52 @@
                             </div>
                         </div>
                     </div>
-                    
+                </div>
+            </div>
+    
+        <style>
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+            }
+            
+            .text-wrap {
+                word-wrap: break-word;
+                max-width: 100%;
+            }
+            
+            .h2-responsive {
+                font-size: 1.5rem;
+            }
+            
+            .text-responsive {
+                font-size: 1rem;
+            }
+            
+            @media (min-width: 576px) {
+                .h2-responsive {
+                    font-size: 1.75rem;
+                }
+                .text-responsive {
+                    font-size: 1.125rem;
+                }
+            }
+            
+            @media (min-width: 768px) {
+                .h2-responsive {
+                    font-size: 2rem;
+                }
+                .text-responsive {
+                    font-size: 1.25rem;
+                }
+                .p-md-5 {
+                    padding: 3rem;
+                }
+            }
+        </style>
                     <!-- Add more Project Cards here -->
                     
                     <!-- Project Card 3 (Add your content here) -->
